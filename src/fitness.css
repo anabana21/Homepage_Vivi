@@ -1,3 +1,10 @@
+:root {
+    --branding-color: #DA4B2B;
+    --secondary-color: white;
+    --heading-font-family: ;
+    --default-font-family: ;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,11 +20,39 @@ font-size: 12px;
 
 
 p {
-
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    line-height: 30px;
 }
 
 section {
+    background: var(--branding-color);
+    padding: 80px 20px;
+}
 
+section.coaching {
+    background: white;
+
+}
+
+
+img .hero {
+    text-align: center;
+}
+.btn-primary {
+    text-align: center;
+    background-color: var(--branding-color) !important;
+    border: #DA4B2B !important;
+}
+
+.btn-primary :hover {
+    background-color: var(--secondary-color) !important;
+    color: #DA4B2B !important;
+}
+
+.hero {
+   text-align: center;
+   padding: 80px 20px;
 }
 
 nav {
