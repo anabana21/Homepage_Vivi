@@ -48,7 +48,13 @@ nav li.active a {
     color: red;
 }
 
+footer {
+    margin: 60px 0;
+}
+
+
 button {
-    background-color: aqua;
+    background-color: red;
+    color: white;
 
 }
