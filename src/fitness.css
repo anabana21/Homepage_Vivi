@@ -32,13 +32,13 @@ section {
 
 section.coaching {
     background: white;
-
 }
 
 
 img .hero {
     text-align: center;
 }
+
 .btn-primary {
     margin-top: 40px;
     background-color: var(--branding-color) !important;
@@ -47,7 +47,7 @@ img .hero {
 
 .btn-primary :hover {
     background-color: var(--secondary-color) !important;
-    color: #DA4B2B !important;
+    color: DA4B2B !important;
 }
 
 .hero {
