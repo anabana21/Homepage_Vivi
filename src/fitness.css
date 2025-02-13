@@ -40,7 +40,7 @@ img .hero {
     text-align: center;
 }
 .btn-primary {
-    text-align: center;
+    margin-top: 40px;
     background-color: var(--branding-color) !important;
     border: #DA4B2B !important;
 }
