@@ -87,4 +87,19 @@ footer {
     margin: 60px 0;
 }
 
+footer .social-links a {
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: var(--branding-color) ;
+    background: rgb(210, 200, 200);
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background: var(--branding-color);
+}
+
 
